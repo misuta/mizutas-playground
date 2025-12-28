@@ -29,7 +29,7 @@ baseurl: "/mizutas-playground" # the subpath of your site, e.g. /blog
 url: "https://misuta.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: mizutabushi
 github_username:  misuta
-bitcoin_address: bc1q4fth4ln90wp795v5n849gjjrltlskvxaa4aqjd
+bitcoin_address: bc1qmm4kear4579f7fpn4cv2sj4hmacjusu3aduyrw
 lightning_address: mizuta@getalby.com
 # Build settings
 theme: minima
