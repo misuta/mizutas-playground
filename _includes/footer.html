@@ -1,5 +1,5 @@
 <footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+  <data class="u-url" href="{{ " /" | relative_url }}"></data>
 
   <div class="wrapper">
 
@@ -8,35 +8,52 @@
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
+
           <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
-             </li>
-            {%- if site.bitcoin_address -%}
-            <li>Bitcoin address:<a class="u-email" > {{ site.bitcoin_address }}</a></li>
-            {%- endif -%}
-            {%- if site.lightning_address -%}
-            <li>Lightning address:<a class="u-email" > {{ site.lightning_address }}</a></li>
-            {%- endif -%}
+            {% if site.author %}
+            {{ site.author | escape }}
+            {% else %}
+            {{ site.title | escape }}
+            {% endif %}
+          </li>
+
+          {% if site.email %}
+          <li>
+            <a class="u-email" href="mailto:{{ site.email }}">
+              {{ site.email }}
+            </a>
+          </li>
+          {% endif %}
+
+          {% if site.bitcoin_address %}
+          <li class="btc-ln">
+            <span class="icon">₿</span>
+            <a href="bitcoin:{{ site.bitcoin_address }}">{{ site.bitcoin_address }}</a>
+          </li>
+          {% endif %}
+
+          {% if site.lightning_address %}
+          <li>
+            <svg class="svg-icon">
+              <use xlink:href="{{ '/assets/minima-social-icons.svg#lightning' | relative_url }}"></use>
+            </svg>
+            <a href="lightning:{{ site.lightning_address }}">
+              {{ site.lightning_address }}
+            </a>
+          </li>
+          {% endif %}
+
         </ul>
       </div>
 
       <div class="footer-col footer-col-2">
-        {%- include social.html -%}
+        {% include social.html %}
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
+        <p>{{ site.description | escape }}</p>
       </div>
     </div>
 
   </div>
-
 </footer>

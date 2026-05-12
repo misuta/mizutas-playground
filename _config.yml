@@ -1,19 +1,53 @@
-title: "Mizuta's Playground"
-author: "Yukio Mizuta"
-email: "yukio.mizuta@protonmail.com"
-twitter_username: "mizutabushi"
-github_username: "misuta"
-description: "A minimalist space for exploring Bitcoin, sovereignty, and economic philosophy. Mizuta's Playground offers clear, thoughtful writing on sound money, individual freedom, and the future of global finance."
-
-baseurl: ""
+title: "Mizuta’s Playground"
+description: "A space for exploring Bitcoin, sovereignty, and the economics of trust-minimization."
 url: "https://playground.mizuta.eu"
 
+author: "Yukio Mizuta"
+github_username: "misuta"
+twitter_username: "mizutabushi"
+email: "yukio.mizuta@protonmail.com"
+bitcoin_address: "bc1qmm4kear4579f7fpn4cv2sj4hmacjusu3aduyrw"
+lightning_address: "mizuta@getalby.com"
+
+
+
+
+# Theme
 theme: minima
 
-paginate: 5
-paginate_path: "/page:num/"
-
+# SEO plugins
 plugins:
-  - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
   - jekyll-paginate
+
+# Permalinks (clean, SEO-friendly)
+permalink: /:categories/:year/:month/:day/:title.html
+
+# Pagination
+paginate: 5
+paginate_path: "/page/:num/"
+
+# Markdown + high-quality formatting
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# Default metadata for all posts
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      lang: "en"
+      twitter_card: "summary_large_image"
+
+# Exclude unnecessary files from sitemap
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - README.md
+  - LICENSE
+  - vendor
