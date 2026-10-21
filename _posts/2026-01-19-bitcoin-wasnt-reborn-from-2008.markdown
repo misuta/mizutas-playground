@@ -7,6 +7,7 @@ description: "Bitcoin isn’t a phoenix rising from the 2008 crisis. It’s a mo
 tags: [bitcoin, monetary-history, 2008, sound-money, hayek]
 redirect_from:
   - "/2026/01/19/Bitcoin-Wasn't-Reborn-From-2008.html"
+  - "/2026/01/19/Bitcoin-Wasn't-Reborn-From-2008/"
 ---
 People love the phoenix metaphor. It’s poetic, dramatic, and comforting: the idea that Bitcoin rose from the ashes of the 2008 financial crisis, a reborn asset forged in the fire of Wall Street’s failures. But that framing, while emotionally satisfying, misses the deeper truth. Bitcoin isn’t a resurrection. It isn’t a reform. It isn’t a digital upgrade of something old.
 
