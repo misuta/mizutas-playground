@@ -5,6 +5,8 @@ author: "Yukio Mizuta"
 date: 2026-06-07
 categories: [bitcoin, stablecoins, economía]
 image: /assets/images/stablecoins-fiat-lifesupport-mizuta.webp
+redirect_from:
+  - "/bitcoin/stablecoins/economía/2026/06/07/stablecoins-fiat-lifesupport.html"
 ---
 ![Stablecoins: The Fiat Life‑Support Machine](/assets/images/stablecoins-fiat-lifesupport-mizuta.webp)
 

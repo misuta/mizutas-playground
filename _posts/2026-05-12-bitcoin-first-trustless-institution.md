@@ -11,7 +11,8 @@ image: /assets/images/bitcoin-trustless-shodo-mizuta.webp
 # SEO Enhancements
 excerpt: "Bitcoin is the first institution designed to work without trust — a protocol that replaces authority with verification."
 lang: en
-canonical_url: "https://playground.mizuta.eu/bitcoin/economics/sovereignty/2026/05/12/bitcoin-first-trustless-institution.html"
+redirect_from:
+  - "/bitcoin/economics/sovereignty/2026/05/12/bitcoin-first-trustless-institution.html"
 twitter_card: summary_large_image
 ---
 

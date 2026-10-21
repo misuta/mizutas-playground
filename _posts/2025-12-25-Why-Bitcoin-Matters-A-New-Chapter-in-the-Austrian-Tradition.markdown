@@ -3,6 +3,8 @@ layout: post
 title:  "Why Bitcoin Matters: A New Chapter in the Austrian Tradition"
 date:   2025-12-25 13:04:04 +0100
 categories: bitcoin economics
+redirect_from:
+  - "/bitcoin/economics/2025/12/25/Why-Bitcoin-Matters-A-New-Chapter-in-the-Austrian-Tradition.html"
 ---
 
 Every intellectual movement has its moment — a point in history when ideas that once lived in books, lectures, and debates suddenly become real, tangible, and impossible to ignore. For the libertarian Austrian School of Economics, that moment arrived with the invention of Bitcoin.   
