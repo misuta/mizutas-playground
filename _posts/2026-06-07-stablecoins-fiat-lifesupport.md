@@ -1,6 +1,7 @@
 ---
 title: "Stablecoins: The Fiat Life‑Support Machine"
-description: "Cómo las stablecoins mantienen con vida al sistema fiat mientras Bitcoin ofrece una salida soberana."
+description: "How stablecoins keep the fiat system alive while Bitcoin offers a sovereign exit."
+author: "Yukio Mizuta"
 date: 2026-06-07
 categories: [bitcoin, stablecoins, economía]
 image: /assets/images/stablecoins-fiat-lifesupport-mizuta.webp

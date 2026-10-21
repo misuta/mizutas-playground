@@ -1,3 +1,12 @@
+---
+layout: post
+title: "A Money With No Master"
+date: 2026-01-13 12:00:00 +0100
+author: "Yukio Mizuta"
+description: "Bitcoin has no company, no foundation and no leader. Its greatest strength is that there is nothing to capture."
+tags: [bitcoin, decentralization, satoshi, spontaneous-order, hayek]
+---
+
 There’s a quiet, almost poetic brilliance in the fact that Bitcoin has no company, no foundation, no charismatic leader standing at the front of the room. In a world obsessed with ownership and control, Bitcoin’s greatest strength is that it slipped through the cracks before anyone could claim it.   
 
 Satoshi’s disappearance wasn’t an accident of history — it was the final act of creation. By stepping away, the inventor ensured that Bitcoin would never become someone’s empire or someone’s liability. No founder to subpoena. No board to pressure. No headquarters to raid. Just a protocol, maintained by a global network of individuals who opt in freely.   

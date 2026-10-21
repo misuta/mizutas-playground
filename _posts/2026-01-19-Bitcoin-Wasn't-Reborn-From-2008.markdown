@@ -1,4 +1,11 @@
-# Bitcoin Wasn’t Reborn From 2008 — It Was Born as Something Entirely New
+---
+layout: post
+title: "Bitcoin Wasn’t Reborn From 2008 — It Was Born as Something Entirely New"
+date: 2026-01-19 12:00:00 +0100
+author: "Yukio Mizuta"
+description: "Bitcoin isn’t a phoenix rising from the 2008 crisis. It’s a monetary species that has never existed before: not a protest, but an exit."
+tags: [bitcoin, monetary-history, 2008, sound-money, hayek]
+---
 People love the phoenix metaphor. It’s poetic, dramatic, and comforting: the idea that Bitcoin rose from the ashes of the 2008 financial crisis, a reborn asset forged in the fire of Wall Street’s failures. But that framing, while emotionally satisfying, misses the deeper truth. Bitcoin isn’t a resurrection. It isn’t a reform. It isn’t a digital upgrade of something old.
 
 Bitcoin is a __monetary species that has never existed before.__   

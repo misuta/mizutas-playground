@@ -1,3 +1,11 @@
+---
+layout: post
+title: "The Tollbooth at the End of the World"
+date: 2026-04-10 12:00:00 +0200
+author: "Yukio Mizuta"
+description: "How the closure of the Strait of Hormuz became the most important real-world test of Bitcoin's core promise."
+tags: [bitcoin, geopolitics, hormuz, sanctions, hayek]
+---
 
 *How the closure of the Strait of Hormuz became the most important real-world test of Bitcoin's core promise — and what the results tell us about the future of money, sovereignty, and trade.*
 
