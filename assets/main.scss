@@ -230,6 +230,39 @@ hr {
 }
 
 
+/* --- ZAP --- */
+
+.zap-wrapper {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.zap-note {
+  font-family: "Noto Serif JP", serif;
+  font-style: italic;
+  color: #555;
+  margin-bottom: 0.8rem;
+}
+
+.zap-button {
+  background: transparent;
+  color: #B30000;
+  border: 1.5px solid #B30000;
+  border-radius: 2px;
+  padding: 0.5rem 1.6rem;
+  font-family: "Inter", sans-serif;
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.zap-button:hover {
+  background: #B30000;
+  color: #FAFAF2;
+}
+
+
 /* --- FOOTER --- */
 
 .site-footer {

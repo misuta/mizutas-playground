@@ -10,6 +10,19 @@ layout: default
   <div class="post-content">
     {{ content }}
   </div>
+
+  <div class="zap-wrapper">
+    <p class="zap-note">If this essay was worth something to you, zap it.</p>
+    <button class="zap-button"
+      data-npub="npub1qqqqqpeqd49sztj8velhp7d3ghx20y28qzd5h97ax3xgczft4wmqmncm3q"
+      data-relays="wss://relay.damus.io,wss://nos.lol,wss://relay.primal.net">
+      ⚡ Zap
+    </button>
+  </div>
+  <script
+    src="https://cdn.jsdelivr.net/npm/nostr-zap@1.3.2/dist/main.js"
+    integrity="sha384-bZNDKE3iPE9QLGZeDLZUj0wkPvMsYpKi44aumZMryoew3QXDvvmaGM3/H3CKlUNM"
+    crossorigin="anonymous"></script>
   
   <div class="hanko-wrapper">
     <img src="{{ '/assets/images/logo-hanko.webp' | relative_url }}" alt="hanko seal" class="hanko">
