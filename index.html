@@ -29,9 +29,10 @@ layout: default
           <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         </h2>
 
-        {%- if post.excerpt -%}
+        {%- assign resumen = post.description | default: post.excerpt | strip_html | strip -%}
+        {%- if resumen != "" -%}
         <p class="post-excerpt">
-          {{ post.excerpt | strip_html | truncate: 180 }}
+          {{ resumen | truncate: 180 }}
         </p>
         {%- endif -%}
 
