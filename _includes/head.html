@@ -8,7 +8,8 @@
 
   <!-- Fonts (Noto Serif JP + Inter) are self-hosted: see @font-face in assets/main.scss -->
 
-  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+  <!-- ?v= changes on every build so browsers don't reuse a stale cached CSS -->
+  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}?v={{ site.time | date: '%s' }}">
   <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" sizes="48x48">
   <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/images/favicon/favicon-32.png' | relative_url }}">
   <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/images/favicon/favicon-16.png' | relative_url }}">
