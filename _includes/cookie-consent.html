@@ -1,0 +1,74 @@
+{%- if jekyll.environment == 'production' and site.google_analytics -%}
+<!-- Cookie consent: Google Analytics is NOT loaded until the visitor accepts -->
+<div id="cookie-banner" class="cookie-banner" role="dialog" aria-live="polite" aria-label="Cookie consent" hidden>
+  <p class="cookie-text">
+    This site would like to use Google Analytics cookies to see which essays get read.
+    Nothing is loaded unless you accept, and you can change your mind at any time.
+    <a href="{{ '/privacy/' | relative_url }}">Privacy policy</a>
+  </p>
+  <div class="cookie-actions">
+    <button type="button" class="cookie-btn" data-consent="rejected">Reject</button>
+    <button type="button" class="cookie-btn" data-consent="accepted">Accept</button>
+  </div>
+</div>
+
+<script>
+  (function () {
+    var GA_ID = '{{ site.google_analytics }}';
+    var KEY = 'cookie_consent';
+    var banner = document.getElementById('cookie-banner');
+
+    function read() { try { return localStorage.getItem(KEY); } catch (e) { return null; } }
+    function save(v) { try { localStorage.setItem(KEY, v); } catch (e) {} }
+
+    function loadAnalytics() {
+      if (window.__gaLoaded) return;
+      window.__gaLoaded = true;
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function () { dataLayer.push(arguments); };
+      gtag('js', new Date());
+      // Keep cookies on this subdomain only, separate from mizuta.eu
+      gtag('config', GA_ID, { cookie_domain: location.hostname });
+      var s = document.createElement('script');
+      s.async = true;
+      s.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_ID;
+      document.head.appendChild(s);
+    }
+
+    function clearAnalyticsCookies() {
+      document.cookie.split(';').forEach(function (c) {
+        var name = c.split('=')[0].trim();
+        if (name.indexOf('_ga') !== 0) return;
+        ['', location.hostname, '.' + location.hostname].forEach(function (d) {
+          document.cookie = name + '=; Max-Age=0; path=/' + (d ? '; domain=' + d : '');
+        });
+      });
+    }
+
+    function decide(value) {
+      var previous = read();
+      save(value);
+      banner.hidden = true;
+      if (value === 'accepted') {
+        loadAnalytics();
+      } else if (previous === 'accepted') {
+        // Consent withdrawn: delete GA cookies and reload so the script is gone
+        clearAnalyticsCookies();
+        location.reload();
+      }
+    }
+
+    // Reopened from the "Cookie settings" link in the footer
+    window.cookieSettings = function () { banner.hidden = false; };
+
+    banner.addEventListener('click', function (e) {
+      var value = e.target.getAttribute && e.target.getAttribute('data-consent');
+      if (value) decide(value);
+    });
+
+    var current = read();
+    if (current === 'accepted') loadAnalytics();
+    else if (!current) banner.hidden = false;
+  })();
+</script>
+{%- endif -%}

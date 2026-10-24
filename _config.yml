@@ -1,6 +1,7 @@
 title: "Mizuta’s Playground"
 description: "A space for exploring Bitcoin, sovereignty, and the economics of trust-minimization."
 url: "https://playground.mizuta.eu"
+baseurl: "" # custom domain at the root; stops github-metadata from guessing /pages/... locally
 
 author: "Yukio Mizuta"
 github_username: "misuta"
@@ -9,7 +10,12 @@ email: "yukio.mizuta@protonmail.com"
 lightning_address: "mizuta@getalby.com"
 
 # Google Analytics 4 (property "Mizuta's Playground")
+# Loaded only after cookie consent (_includes/cookie-consent.html)
 google_analytics: "G-SY2E6QPP51"
+
+# Pages shown in the top navigation (keeps Privacy out of the nav)
+header_pages:
+  - about.markdown
 
 
 
