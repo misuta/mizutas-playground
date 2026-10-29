@@ -8,7 +8,7 @@ permalink: /privacy/
 
 ## Who is responsible
 
-The controller is Giovanni Ceballos Contreras (Yukio Mizuta), c/o Autorenglück #49349, Albert-Einstein-Straße 47, 02977 Hoyerswerda, Germany. For anything related to your data, write to [mizuta@mizuta.eu](mailto:mizuta@mizuta.eu). See also the [Impressum](/impressum/).
+The controller is Giovanni Ceballos Contreras, c/o Autorenglück #49349, Albert-Einstein-Straße 47, 02977 Hoyerswerda, Germany. For anything related to your data, write to [mizuta@mizuta.eu](mailto:mizuta@mizuta.eu). See also the [Impressum](/impressum/).
 
 ## Hosting
 
