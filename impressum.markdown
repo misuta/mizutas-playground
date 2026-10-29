@@ -6,7 +6,7 @@ permalink: /impressum/
 
 ## Information according to § 5 DDG
 
-Giovanni Ceballos Contreras – Yukio Mizuta  
+Yukio Mizuta (Giovanni Ceballos Contreras)  
 c/o Autorenglück #49349  
 Albert-Einstein-Straße 47  
 02977 Hoyerswerda  
