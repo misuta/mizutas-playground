@@ -4,11 +4,11 @@ title: Privacy Policy
 permalink: /privacy/
 ---
 
-*Last updated: October 24, 2026*
+*Last updated: October 29, 2026*
 
 ## Who is responsible
 
-This site is run by Yukio Mizuta. For anything related to your data, write to [yukio.mizuta@protonmail.com](mailto:yukio.mizuta@protonmail.com).
+The controller is Giovanni Ceballos Contreras (Yukio Mizuta), c/o Autorenglück #49349, Albert-Einstein-Straße 47, 02977 Hoyerswerda, Germany. For anything related to your data, write to [mizuta@mizuta.eu](mailto:mizuta@mizuta.eu). See also the [Impressum](/impressum/).
 
 ## Hosting
 

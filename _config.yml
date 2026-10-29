@@ -6,7 +6,7 @@ baseurl: "" # custom domain at the root; stops github-metadata from guessing /pa
 author: "Yukio Mizuta"
 github_username: "misuta"
 twitter_username: "mizutabushi"
-email: "yukio.mizuta@protonmail.com"
+email: "mizuta@mizuta.eu"
 lightning_address: "mizuta@getalby.com"
 
 # Google Analytics 4 (property "Mizuta's Playground")
