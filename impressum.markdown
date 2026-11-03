@@ -14,7 +14,8 @@ Germany
 
 ## Contact
 
-Email: [mizuta@mizuta.eu](mailto:mizuta@mizuta.eu)
+Email: [mizuta@mizuta.eu](mailto:mizuta@mizuta.eu)  
+Contact form: [yukio-mizuta.autorenglück.me](https://yukio-mizuta.xn--autorenglck-1hb.me/)
 
 ## Responsible for content according to § 18(2) MStV
 
